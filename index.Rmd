@@ -36,8 +36,7 @@ For any text file!
 ## How to make your wordcloud
 
 Select:
-- A text file 
--- sample available at https://github.com/gmuldoon/DataProducts-coursera/tree/master
+- A text file (sample available at github.com/gmuldoon/DataProducts-coursera/tree/master)
 - Minimum frequency a word must appear to be included
 - Maximum number of words to show in the wordcloud
 - Whether or not to include punctuation
