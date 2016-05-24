@@ -62,8 +62,7 @@ Modifications are possible to also output the file of word frequency:
 
 ```r
 ggplot(data=freq[1:25,],aes(x=reorder(word,-frequency),y=frequency))+
-    geom_bar(stat="identity",width=0.75)+
-    theme_classic()+
+    geom_bar(stat="identity",width=0.75)+theme_classic()+
     theme(axis.text.x = element_text(angle=45, hjust=1,size=12))+
     labs(title="Top 10 Words in Alice in Wonderland",x="",y="frequency")
 ```
