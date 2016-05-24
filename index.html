@@ -102,19 +102,21 @@ For any text file!</li>
 <div style='text-align: center;'>
 The ui.R and server.R for this app are available at: 
 <br>
-<br>
+
 <a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
 <br>
-<br>
-<br>
+
 Modifications are possible to also output the file of word frequency for further analysis: 
 </div>
 
-<!-- <div style='text-align: center;'> -->
+<pre><code class="r">ggplot(data=freq[1:25,],aes(x=reorder(word,-frequency),y=frequency))+
+    geom_bar(stat=&quot;identity&quot;,width=0.75)+
+    theme_classic()+
+    theme(axis.text.x = element_text(angle=45, hjust=1,size=12))+
+    labs(title=&quot;Top 10 Words in Alice in Wonderland&quot;,x=&quot;&quot;,y=&quot;frequency&quot;)
+</code></pre>
 
-<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
-
-<!-- </div> -->
+<p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"></p>
 
   </article>
   <!-- Presenter Notes -->

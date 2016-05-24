@@ -53,15 +53,22 @@ Note: Numbers are automatically removed, stemmed words are combined, and all wor
 <div style='text-align: center;'>
 The ui.R and server.R for this app are available at: 
 <br>
-<br>
+
 <a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
 <br>
-<br>
-<br>
+
 Modifications are possible to also output the file of word frequency for further analysis: 
 </div>
-<!-- <div style='text-align: center;'> -->
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
-<!-- </div> -->
+
+
+```r
+ggplot(data=freq[1:25,],aes(x=reorder(word,-frequency),y=frequency))+
+    geom_bar(stat="identity",width=0.75)+
+    theme_classic()+
+    theme(axis.text.x = element_text(angle=45, hjust=1,size=12))+
+    labs(title="Top 10 Words in Alice in Wonderland",x="",y="frequency")
+```
+
+![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2-1.png)
 
 
