@@ -46,7 +46,7 @@ Note: Numbers are automatically removed, stemmed words are combined, and all wor
 
 The ui.R and server.R for this app are available at: 
 <br>
-<a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
+<a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera/tree/master</a>
 <br>
 
 --- .class #id 
