@@ -45,18 +45,17 @@ Select:
 
 Note: Numbers are automatically removed, stemmed words are combined, and all words are changed to lower case
 
+The ui.R and server.R for this app are available at: 
+<br>
+<a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
+<br>
+
 --- .class #id 
 
 ## 
 
 <!-- <br> -->
 <div style='text-align: center;'>
-The ui.R and server.R for this app are available at: 
-<br>
-
-<a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
-<br>
-
 Modifications are possible to also output the file of word frequency for further analysis: 
 </div>
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
