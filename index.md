@@ -36,8 +36,8 @@ For any text file!
 ## How to make your wordcloud
 
 Select:
-- A text file (sample available at https://github.com/gmuldoon/DataProducts-coursera)
-- Minium frequency a word must appear to be included
+- A text file (sample available at https://github.com/gmuldoon/DataProducts-coursera/tree/master)
+- Minimum frequency a word must appear to be included
 - Maximum number of words to show in the wordcloud
 - Whether or not to include punctuation
 - Whether or not to include stop words (common words like the, and, etc.)
@@ -53,7 +53,7 @@ Note: Numbers are automatically removed, stemmed words are combined, and all wor
 The ui.R and server.R for this app are available at: 
 <br>
 <br>
-<a href="https://github.com/gmuldoon/DataProducts-coursera ">https://github.com/gmuldoon/DataProducts-coursera</a>
+<a href="https://github.com/gmuldoon/DataProducts-coursera/tree/master">https://github.com/gmuldoon/DataProducts-coursera</a>
 <br>
 <br>
 <br>
