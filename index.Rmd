@@ -56,7 +56,7 @@ The ui.R and server.R for this app are available at:
 
 <!-- <br> -->
 <div style='text-align: center;'>
-Modifications are possible to also output the file of word frequency for further analysis: 
+Modifications are possible to also output the file of word frequency: 
 </div>
 ```{r,echo=FALSE,message=FALSE,warning=FALSE}
 library(ggplot2)
