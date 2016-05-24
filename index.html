@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wordcloud App</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Wordcloud App">
+  <meta name="author" content="Gail Muldoon">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Wordcloud App</h1>
+    <h2>Make a wordcloud from any text file!</h2>
+    <p>Gail Muldoon<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Now you can:</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Visualize a text</li>
+<li>Get the main topics at a glance</li>
+<li>Find the most important words in a document
+<div style='text-align: center;'>
+<img height='560' src='AliceinWonderland-wordcloud.png' />
+</div>
+For any text file!</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The App: <a href="https://gmuldoon.shinyapps.io/Project/">https://gmuldoon.shinyapps.io/Project/</a></h2>
+  </hgroup>
+  <article data-timings="">
+    <div style='text-align: center;'>
+    <img height='560' src='wordcloud-app.png' />
+</div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How to make your wordcloud</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Select:</p>
+
+<ul>
+<li>A text file (sample available at <a href="https://github.com/gmuldoon/DataProducts-coursera">https://github.com/gmuldoon/DataProducts-coursera</a>)</li>
+<li>Minium frequency a word must appear to be included</li>
+<li>Maximum number of words to show in the wordcloud</li>
+<li>Whether or not to include punctuation</li>
+<li>Whether or not to include stop words (common words like the, and, etc.)</li>
+</ul>
+
+<p>Note: Numbers are automatically removed, stemmed words are combined, and all words are changed to lower case</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <!-- <br> -->
+
+<div style='text-align: center;'>
+The ui.R and server.R for this app are available at: 
+<br>
+<br>
+<a href="https://github.com/gmuldoon/DataProducts-coursera ">https://github.com/gmuldoon/DataProducts-coursera</a>
+<br>
+<br>
+<br>
+Modifications are possible to also output the file of word frequency for further analysis: 
+</div>
+
+<!-- <div style='text-align: center;'> -->
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+
+<!-- </div> -->
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Now you can:'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The App: <a href="https://gmuldoon.shinyapps.io/Project/">https://gmuldoon.shinyapps.io/Project/</a>'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to make your wordcloud'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NA'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
