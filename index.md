@@ -37,7 +37,7 @@ For any text file!
 
 Select:
 - A text file 
---sample available at https://github.com/gmuldoon/DataProducts-coursera/tree/master
+-- sample available at https://github.com/gmuldoon/DataProducts-coursera/tree/master
 - Minimum frequency a word must appear to be included
 - Maximum number of words to show in the wordcloud
 - Whether or not to include punctuation
